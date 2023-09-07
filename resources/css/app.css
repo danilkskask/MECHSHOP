@@ -1,0 +1,44 @@
+body { 
+    padding: 0;
+    margin: 0;
+    background: no-repeat url("https://cdn.bitrix24.ru/b3047083/landing/c79/c79b4840dcf92f437836d44c7ea8e618/4044_2x.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+li{
+    list-style-type: none; 
+} 
+a {
+    font-size: 16px;
+    color: #778899;
+    text-decoration: none; /* Убираем подчеркивание */
+    border-bottom: 1px solid #A9A9A9; /* Добавляем нижнюю черточку */
+}
+
+.bg-cvet {
+    background-color: #FDF5E6;
+}
+
+#footer {
+    background-color: #FDF5E6; /* Задний фон */
+    color: #FFFFFF; /* Цвет текста */
+    padding: 20px;
+}
+footer p, h5{
+    color: #778899;
+}
+
+.ssil{
+    padding-left: 30px;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
